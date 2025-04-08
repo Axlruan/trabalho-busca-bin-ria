@@ -1,0 +1,3 @@
+bool ExisteNumero(int[] array, int valor) {
+    return BuscaBinaria(array, valor) != -1;
+}
