@@ -1,0 +1,9 @@
+int MaiorMenorQueX(int[] array, int x) {
+    int resultado = -1;
+
+    foreach (int item in array) {
+        if (item < x) resultado = item;
+        else break;
+    }
+    return resultado;
+}
